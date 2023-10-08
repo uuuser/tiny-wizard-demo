@@ -8,17 +8,17 @@ enum Status {UNEXPLORED, EXPLORED}
 const ROOM_SIZE = Vector2(1024,600)
 
 const OPEN_DOORS = [
-	preload("res://tiny_wizard/assets/placeholder_art/Doors/right_door.png"),
-	preload("res://tiny_wizard/assets/placeholder_art/Doors/down_door.png"),
-	preload("res://tiny_wizard/assets/placeholder_art/Doors/left_door.png"),
-	preload("res://tiny_wizard/assets/placeholder_art/Doors/up_door.png"),
+	preload("res://tiny_wizard/assets/placeholder_art/doors/right_door.png"),
+	preload("res://tiny_wizard/assets/placeholder_art/doors/down_door.png"),
+	preload("res://tiny_wizard/assets/placeholder_art/doors/left_door.png"),
+	preload("res://tiny_wizard/assets/placeholder_art/doors/up_door.png"),
 ]
 
 const CLOSED_DOORS = [
-	preload("res://tiny_wizard/assets/placeholder_art/Doors/right_door_closed.png"),
-	preload("res://tiny_wizard/assets/placeholder_art/Doors/down_door_closed.png"),
-	preload("res://tiny_wizard/assets/placeholder_art/Doors/left_door_closed.png"),
-	preload("res://tiny_wizard/assets/placeholder_art/Doors/up_door_closed.png"),
+	preload("res://tiny_wizard/assets/placeholder_art/doors/right_door_closed.png"),
+	preload("res://tiny_wizard/assets/placeholder_art/doors/down_door_closed.png"),
+	preload("res://tiny_wizard/assets/placeholder_art/doors/left_door_closed.png"),
+	preload("res://tiny_wizard/assets/placeholder_art/doors/up_door_closed.png"),
 ]
 
 const PLAYER_CHARACTER = preload("res://tiny_wizard/player/player_character.tscn")
